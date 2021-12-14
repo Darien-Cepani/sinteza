@@ -5367,7 +5367,6 @@ body.anim .load-title-fill:after {
 
 .footer-social li {
 	margin-bottom: 12px;
-	text-align: right;
 }
 
 .footer-information li {
@@ -5404,6 +5403,34 @@ body.anim .load-title-fill:after {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
+		width: 100%;
+	}
+	
+	.footer-title{
+		display: block;
+		width: 100%;
+	}
+
+	.logoja{
+		order: 1;
+		text-align: center;
+		width: 100%;
+	}
+
+	.kontakt{
+		order: 2;
+		text-align: center;
+		width: 100%;
+	}
+
+	.rrjete{
+		order: 3;
+		text-align: center;
+		width: 100%;
+	}
+
+	.footer-copyright{
+		order: 5;
 	}
 	
 	.footer-menu,
@@ -7769,9 +7796,16 @@ body.out .swiper-slide-active .portfolio-slider-fade {
 	}
 	
 	.portfolio-content-bg {
-		height: 100vh;
+		height: 300px;
 	}
 	
+	.top-padding-60{
+		order: 1;
+	}
+
+	.flip{
+		order: 2
+	}
 }
 
 /*--------------------------------------------------------------
